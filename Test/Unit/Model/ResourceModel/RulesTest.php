@@ -182,7 +182,7 @@ class RulesTest extends TestCase
     /**
      * Test LocalizedException throw case.
      */
-    public function testLocalizedExceptionOccurrence()
+    public function testLocalizedExceptionOccurance()
     {
         $this->expectException(LocalizedException::class);
         $this->expectExceptionMessage("TestException");
@@ -212,7 +212,7 @@ class RulesTest extends TestCase
     /**
      * Test generic exception throw case.
      */
-    public function testGenericExceptionOccurrence()
+    public function testGenericExceptionOccurance()
     {
         $exception = new \Exception('GenericException');
 
