@@ -40,7 +40,7 @@ class Role extends \Magento\Framework\Model\AbstractModel
      * @param \Magento\Authorization\Model\ResourceModel\Role\Collection $resourceCollection
      * @param array $data
      */
-    public function __construct( //phpcs:ignore Generic.CodeAnalysis.UselessOverridingMethod
+    public function __construct(
         \Magento\Framework\Model\Context $context,
         \Magento\Framework\Registry $registry,
         \Magento\Authorization\Model\ResourceModel\Role $resource,
@@ -51,7 +51,7 @@ class Role extends \Magento\Framework\Model\AbstractModel
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function __sleep()
     {
@@ -60,7 +60,7 @@ class Role extends \Magento\Framework\Model\AbstractModel
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function __wakeup()
     {
